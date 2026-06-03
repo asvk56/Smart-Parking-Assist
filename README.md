@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/107bd262-9fd1-4afa-9c2b-6afa1bf3a55b
 
-A real-time, non-blocking parking sensor built with Arduino and an HC-SR04 ultrasonic module. It measures distance and gives instant visual (LED) and audio (Buzzer) feedback. The code is structured to avoid long `delay()` traps, so the system reacts instantly without lagging.
+A real-time, non-blocking parking sensor built with Arduino and an HC-SR04 ultrasonic module. It measures distance and gives instant visual (LED) and audio (Buzzer) feedback. The system uses short, intentional delays only for buzzer timing and sensor cooldown.
 
 ## 🛠️ Components
 * Arduino UNO
