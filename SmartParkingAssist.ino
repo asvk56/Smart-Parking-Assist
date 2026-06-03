@@ -73,8 +73,6 @@ void triggerAlert(float distance){
     digitalWrite(greenLED,LOW);
 
     digitalWrite(buzzPin,HIGH);
-    digitalWrite(buzzPin,LOW);
-
     Serial.println("DANGER!! STOP!");
   }
   
